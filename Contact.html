@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!-- contact.html -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GirlsDaily - Contact</title>
+  <link rel="icon" type="image/x-icon" href="image/logogirls.jpeg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="utscaca.css">
+</head>
+<body>
+
+   <!-- Navbar Section -->
+   <nav class="navbar">
+    <div class="logo">GirlsDaily</div>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="About.html">About</a></li>
+      <li><a href="Tips&Trick.html">Tips&Trick</a></li>
+      <li><a href="Products.html">Gallery</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+   <!-- Header Section -->
+   <header class="header"></header>
+
+<br><br>
+  <section class="contact-container" id="Contact">
+    <h1 class="heading" style="margin-top: -10px;">Contact</h1>
+    <form action="#" method="POST">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+      </div>
+      <button type="submit" class="send-button">Send</button>
+    </form>
+  </section>
+
+  <br><Br>
+
+    <section class="articles" id="Contact">
+      <h1 class="heading">Article</h1>
+      <div class="article-box">
+        <h2><a href="https://www.mitrakeluarga.com/artikel/urutan-pemakaian-skincare" target="_blank">The Correct Skincare Routine for Bright and Healthy Skin</a></h2>
+        <p>
+          Follow the steps to achieve healthier and more radiant skin.
+        </p>
+        <a class="read-more" href="https://www.mitrakeluarga.com/artikel/urutan-pemakaian-skincare" target="_blank">Read More</a>
+      </div>
+  
+      <div class="article-box">
+        <h2><a href="https://www.siloamhospitals.com/informasi-siloam/artikel/cara-mengetahui-jenis-kulit-wajah" target="_blank">How to Easily Identify Your Skin Type</a></h2>
+        <p>
+          Understand your skin type to choose the right skincare products.
+        </p>
+        <a class="read-more" href="https://www.siloamhospitals.com/informasi-siloam/artikel/cara-mengetahui-jenis-kulit-wajah" target="_blank">Read More</a>
+      </div>
+  
+      <div class="article-box">
+        <h2><a href="https://www.halodoc.com/artikel/pentingnya-skincare-awareness-di-usia-remaja?srsltid=AfmBOorZhn6utY24YSRdEIwum8dR5Hsl9OUZ-0VbPns2t61hZVN63Pit" target="_blank">The Importance of Skincare Awareness During Teenage Years</a></h2>
+        <p>
+          Start building healthy skincare habits early for long-term benefits.
+        </p>
+        <a class="read-more" href="https://www.halodoc.com/artikel/pentingnya-skincare-awareness-di-usia-remaja?srsltid=AfmBOorZhn6utY24YSRdEIwum8dR5Hsl9OUZ-0VbPns2t61hZVN63Pit" target="_blank">Read More</a>
+      </div>
+      </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footercontainer">
+        <div class="footer-social">
+          <a href="https://www.instagram.com/sociolla/?igsh=dHJwOHRlNmEzcDFq"><i class="fa-brands fa-instagram fa-lg" style="color: #000000;"></i></i></a>
+          <a href="https://youtu.be/O_qgaOUR3Fo?si=aeZxSr6K4kJJTcYx"><i class="fa-brands fa-youtube fa-lg" style="color: #000000;"></i></a>
+          <a href="mailto:farisaszatya@gmail.com"><i class="fa-solid fa-envelope fa-lg" style="color: #000000;"></i></i></a>
+          <a href="https://vt.tiktok.com/ZSjXEwbSV/"><i class="fa-brands fa-tiktok fa-lg" style="color: #000000;"></i></i></a>
+      </div>
+          <br>
+
+          <div class="footer-links">
+            <a href="home.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="Tips&Trick.html">Tips&Trik</a>
+            <a href="Products.html">Products</a>
+            <a href="Contact.html">Contact</a>
+          </div>
+          
+
+          <div class="footer-info">
+            <p>Copyright 2024 | Designed By Farisa Shifa Alia <span class="designer"></span></p>
+            Visit The <a href="https://www.larocheposay.co.id/" target="_blank">LaRocheCare</a>
+          </div>
+      </div>
+  </footer>
+  
+  <button id="scrollToTopBtn" class="scroll-to-top" style="font-size: 30px;">&#11121</button>
+  <script>
+    const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+  // Memunculkan button jika di scroll sesuai height
+  window.onscroll = function () {
+    if (document.body.scrollTop > 185 || document.documentElement.scrollTop > 185) {
+      scrollToTopBtn.style.display = "block";
+    } else {
+      scrollToTopBtn.style.display = "none";
+    }
+  };
+  // Akan scroll ke atas
+  scrollToTopBtn.addEventListener("click", function () {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  });
+  </script>
+
+    
+</body>  
+</html>
